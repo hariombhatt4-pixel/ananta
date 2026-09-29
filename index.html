@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ananta Search - Explore the web with simplicity.">
+  <title>Ananta Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#" class="logo">
+      <span class="logo-symbol">∞</span>
+      <span>Ananta</span>
+    </a>
+
+    <nav>
+      <a href="#about">About</a>
+      <button id="themeButton" class="theme-button" aria-label="Change theme">
+        ☾
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="badge">A new way to explore</div>
+
+      <h1>Search without limits.</h1>
+
+      <p class="subtitle">
+        Welcome to Ananta Search — technology built for infinite possibilities.
+      </p>
+
+      <form id="searchForm" class="search-box">
+        <span class="search-icon">⌕</span>
+
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="Search the web..."
+          autocomplete="off"
+          required
+        >
+
+        <button type="submit">Search</button>
+      </form>
+
+      <p class="hint">Press Enter to search</p>
+
+      <div class="quick-links">
+        <button data-search="technology">Technology</button>
+        <button data-search="science">Science</button>
+        <button data-search="news">News</button>
+        <button data-search="programming">Programming</button>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div>
+        <p class="section-label">ABOUT ANANTA</p>
+        <h2>Infinite ideas.<br>One beginning.</h2>
+      </div>
+
+      <p>
+        Ananta is an independent technology project created by
+        <strong>Legend_Saksham__</strong>. Our goal is to build useful,
+        simple, and powerful digital products for everyone.
+      </p>
+    </section>
+
+    <section class="feature-section">
+      <div class="feature-card">
+        <div class="feature-icon">⚡</div>
+        <h3>Simple</h3>
+        <p>Designed to be clean, fast, and easy to use.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">∞</div>
+        <h3>Limitless</h3>
+        <p>Built around curiosity, creativity, and possibility.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">✦</div>
+        <h3>Growing</h3>
+        <p>A small beginning for a much bigger technology vision.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Ananta. Built by Legend_Saksham__.</p>
+    <p>Version 1.0</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
